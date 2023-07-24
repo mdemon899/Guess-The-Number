@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+  <header id="header" class="container">
+    <div id="again">
+      <button id="againBtn">Try Again</button>
+    </div>
+    <div class="hinfo">
+      <p>
+        < Guess Between 1 to 20 >
+      </p>
+    </div>
+  </header>
+
+  <section class="Hero_Section container">
+    <h2>Guess The Number 🤔</h2>
+    <div id="winImg"></div>
+    <div id="hideImg"></div>
+    <h3 id="guessNum">0</h3>
+  </section>
+  <section id="messageInfo" class="container">
+    <p id="message">Guess Number Between 1 to 20</p>
+  </section>
+  <section id="mainBody" class="container">
+    <div id="inputArea">
+      <input type="text" id="inputBox" placeholder="Numbers only 1 to 20">
+      <input type="submit" value="Submit" id="submitBtn">
+    </div>
+    <div id="attemptArea">
+      <p>🏅 Attempt <span id="attemptNum">0</span>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; <span id="copyDate"></span> All rights reserved | This Website is made with &hearts; By Md Nore
+      Almon Emon</p>
+  </footer>
+
+  <script src="/JS/game.js"></script>
+</body>
+
+</html>

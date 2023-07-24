@@ -1,0 +1,157 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+
+/* Common CSS */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Header Area */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#header p {
+  font-weight: 500;
+}
+
+#againBtn {
+  background: #e74c3c;
+  padding: 9px 20px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+#againBtn:hover {
+  background: #c0392b;
+  transition: all 0.4s ease;
+}
+
+/* Hero Section Area */
+
+.Hero_Section {
+  padding: 45px 0 0;
+  position: relative;
+  text-align: center;
+}
+
+.Hero_Section h2 {
+  font-weight: 700;
+}
+
+#guessNum {
+  width: 200px;
+  background: #fff;
+  padding: 20px;
+  margin: 10px auto;
+  font-size: 33px;
+}
+
+#winImg {
+  background: url(../IMG/win.png) no-repeat center center/50px 50px;
+  width: 350px;
+  height: 65px;
+  margin: 10px auto;
+  display: none;
+
+}
+
+#hideImg {
+  background: url(../IMG/hide.png) no-repeat center center/40px 40px;
+  background-color: #fff;
+  height: 79px;
+  width: 200px;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -100px;
+
+}
+
+/* Message Info Area */
+
+#messageInfo p {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Main Body Area */
+
+#mainBody {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inputArea {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputBox {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+}
+
+#submitBtn {
+  padding: 10px 23px;
+  background: #e17055;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background: #fab1a0;
+  transition: all 0.4s ease;
+}
+
+/* Footer Area */
+
+footer {
+  padding: 22px;
+  background: #ddd;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
